@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dim">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natpijak Kaewsawang - Web Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-base-100 text-base-content">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Navbar -->
+  <header class="sticky top-0 shadow-sm z-50 backdrop-blur-lg bg-transparent">
+    <div class="navbar max-w-11/12 mt-4 mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-2 mt-3 w-52 p-2 shadow">
+            <li><a href="#about">About</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <a href="#home" class="text-2xl font-bold">bimu.</a>
+      </div>
+      <nav class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal lowercase font-bold gap-4">
+          <li><a href="#about">About</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="navbar-end"></div>
+      </div>
+  </header>
+  <!-- Hero Section -->
+   <section class="hero min-h-screen" style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content text-center">
+      <div class="max-w-screen uppercase">
+        <h1 class="text-7xl font-bold pb-5">Natpijak Kaewsawang</h1>
+        <hr>
+        <p class="text-5xl font-bold pb-8 pt-5">Web Developer</p>
+      </div>
+    </div>
+   </section>
+   <!-- About Section -->
+    <section id="about" class="hero min-h-screen">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img src="../src/p_bgremove.png"class="max-w-md rounded-lg shadow-2xl"/>
+        <div>
+        <h2 class="text-5xl font-bold mb-6 text-center">About Me</h2>
+        <p class="text-lg">
+        I'm a passionate web developer who loves creating modern, responsive, and interactive websites.
+        I focus on writing clean, maintainable code and constantly improve my skills in frontend and backend technologies.
+        </p>
+      </div>
+      </div>
+    </section>
+    <!-- Skill Section -->
+     <section id="expertise" class="min-h-screen">
+      <div class="text-center px-4 mx-auto max-w-5xl">
+        <h2 class="text-5xl font-bold mb-10 uppercase">My Expertise</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="card bg-base-100 shadow-md p-4 hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-3">Core Skills</h3>
+          <hr>
+          <ul class="list-disc list-inside justify-items-start mt-3 ml-8 text-lg">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TailwindCSS</li>
+            <li>daisyUI</li>
+            <li>MySQL</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+        <div class="card bg-base-100 shadow-md p-4 hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-3">Addition Skills</h3>
+          <hr>
+          <ul class="list-disc list-inside justify-items-start mt-3 ml-8 text-lg">
+            <li>Python</li>
+            <li>Luau Script</li>
+            <li>Bootstrap</li>      
+        </div>
+        <div class="card bg-base-100 shadow-md p-4 hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-3">Tools & Platforms</h3>
+          <hr>
+          <ul class="list-disc list-inside justify-items-start mt-3 ml-8 text-lg">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>        
+        </div>
+        <div class="card bg-base-100 shadow-md p-4 hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-3">Soft Skills</h3>
+          <hr>
+          <ul class="list-disc list-inside justify-items-start mt-3 ml-8 text-lg">
+            <li>Problem-Solving</li>
+            <li>Teamwork &</li>
+            <li class="list-none ml-7">Collaboration</li>
+            <li>Adaptability</li>
+            <li>Fast Learning</li>
+            <li>Continuous</li>
+            <li class="list-none ml-7">Learning</li>
+      </div>      
+      </div>
+     </section>
+</body>
+</html>
