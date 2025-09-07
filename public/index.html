@@ -20,7 +20,7 @@
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-2 mt-3 w-52 p-2 shadow">
+          <ul tabindex="0" class="menu menu-sm menu-2 dropdown-content bg-base-100 rounded-box z-2 mt-3 w-52 p-2 shadow">
             <li><a href="#about">About</a></li>
             <li><a href="#expertise">Expertise</a></li>
             <li><a href="#education">Education</a></li>
@@ -31,7 +31,7 @@
         <a href="#home" class="text-2xl font-bold">bimu.</a>
       </div>
       <nav class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal lowercase font-bold gap-4">
+        <ul class="menu menu-horizontal menu-2 lowercase font-bold gap-4">
           <li><a href="#about">About</a></li>
           <li><a href="#expertise">Expertise</a></li>
           <li><a href="#education">Education</a></li>
@@ -56,10 +56,10 @@
    <!-- About Section -->
     <section id="about" class="hero min-h-screen">
       <div class="hero-content flex-col lg:flex-row-reverse">
-        <div class="holograhic hover:scale-120 transition shadow-2xl rounded-lg max-w-md">
+        <div class="holograhic hover:scale-120 transition shadow-2xl rounded-lg max-w-md fadeUp">
         <img src="https://i.postimg.cc/hPQ5sJ4j/p-bgremove.png" width="480px"/>
         </div>
-        <div>
+        <div class="autoShow">
         <h2 class="text-5xl font-bold mb-6 text-center">About Me</h2>
         <p class="text-lg">
         I'm a passionate web developer who loves creating modern, responsive, and interactive websites.
@@ -69,11 +69,11 @@
       </div>
     </section>
     <!-- Skill Section -->
-     <section id="expertise" class="max-h-screen">
+     <section id="expertise" class="min-h-screen">
       <div class="text-center px-4 mx-auto max-w-5xl">
-        <h2 class="text-5xl font-bold mb-10 uppercase">My Expertise</h2>
+        <h2 class="text-5xl font-bold mb-10 uppercase autoShow">My Expertise</h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline">
+        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline fadeUp timeline-item">
           <h3 class="text-xl font-semibold mb-3">Core Skills</h3>
           <hr>
           <ul class="list-disc list-inside justify-items-start mt-3 text-lg">
@@ -86,7 +86,7 @@
             <li>PHP</li>
           </ul>
         </div>
-        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline">
+        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline fadeUp timeline-item">
           <h3 class="text-xl font-semibold mb-3">Addition Skills</h3>
           <hr>
           <ul class="list-disc list-inside justify-items-start mt-3 text-lg">
@@ -94,7 +94,7 @@
             <li>Luau Script</li>
             <li>Bootstrap</li>      
         </div>
-        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline">
+        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline fadeUp timeline-item>
           <h3 class="text-xl font-semibold mb-3">Tools & Platforms</h3>
           <hr>
           <ul class="list-disc list-inside justify-items-start mt-3 text-lg">
@@ -102,7 +102,7 @@
             <li>GitHub</li>
             <li>VS Code</li>        
         </div>
-        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline">
+        <div class="card bg-base-100 shadow-xl p-4 hover:scale-105 transition hover-underline fadeUp timeline-item">
           <h3 class="text-xl font-semibold mb-3">Soft Skills</h3>
           <hr>
           <ul class="text-start list-disc list-inside mt-3 text-lg">
@@ -119,8 +119,8 @@
      <!-- Education Section -->
       <section class="py-16 min-h-screen" id="education">
         <div class="text-center px-4 mx-auto max-w-5xl">
-          <h2 class="text-5xl font-bold mb-7 uppercase">My Education</h2>
-          <p class="text-lg mb-10">Bachelor of Arts (Information Studies) | Srinakharinwirot University</p>
+          <h2 class="text-5xl font-bold mb-7 uppercase fadeUp">My Education</h2>
+          <p class="text-lg mb-10 autoShow">Bachelor of Arts (Information Studies) | Srinakharinwirot University</p>
           <hr class="mb-10">
           <h3 class="text-2xl font-bold mb-10">My Transcript</h3>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
